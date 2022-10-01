@@ -12,7 +12,7 @@ namespace AddressBookSystem
         public UC1CreateContact(string v1, string v2, string v3, string v4, string v5, string v6, string v7)
         {
         }
-
+      
         public static void CreateContactInAddresssBook()
         {
             UC1CreateContact user1 = new UC1CreateContact("navitha", "reddy", "Anantapur", "AP", "515731", "6409765439", "nav123@gmail.com");
@@ -29,7 +29,12 @@ namespace AddressBookSystem
             list.AddLast(user4);
             list.AddLast(user5);
             list.AddLast(user6);
-        
+
+            foreach (UC1CreateContact contact in list)
+            {
+                Console.WriteLine(contact);
+            }
+
         }
 
     }
