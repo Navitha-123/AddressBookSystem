@@ -22,12 +22,15 @@ namespace AddressBookSystem
                 case 2:
                     UC2AddContact.AddContactInAddresssBook();
                     break;
-                case 3:
+               /* case 3:
                     FileIO.Serialize( file = @"D:\Users\LENOVO\Desktop\navitha\AddressBookSystem\AddressBookSystem\Contacts.txt", FileMode.Create);
                     Console.WriteLine(file = @"D:\Users\LENOVO\Desktop\navitha\AddressBookSystem\AddressBookSystem\Contacts.txt", FileMode.Create);
                     FileIO.Deserialize(file = @"D:\Users\LENOVO\Desktop\navitha\AddressBookSystem\AddressBookSystem\Contacts.txt", FileMode.Open);
                     Console.WriteLine(file = @"D:\Users\LENOVO\Desktop\navitha\AddressBookSystem\AddressBookSystem\Contacts.txt", FileMode.Open);
                     break;
+               */
+                case 4:
+
                 default:
                     Console.WriteLine("enter correct choice");
                     break;

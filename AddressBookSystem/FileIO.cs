@@ -17,7 +17,7 @@ namespace AddressBookSystem
             formatter.Serialize(file, list);    
             file.Close();
         }
-        public void Deserialize()
+        public void Deserialize(string v)
         {
             FileStream fileStream = new FileStream(@"D:\Users\LENOVO\Desktop\navitha\AddressBookSystem\AddressBookSystem\Contacts.txt", FileMode.Open);
             BinaryFormatter formatter = new BinaryFormatter();
